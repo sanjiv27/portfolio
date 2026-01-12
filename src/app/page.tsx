@@ -50,8 +50,27 @@ export default function Page() {
                 text={`Hi, I'm ${DATA.name.split(" ")[0]}.`}
               />
               <BlurFade delay={BLUR_FADE_DELAY * 4}>
-                <p className="text-sm text-muted-foreground md:text-base">
-                  Pronounced /sun-jeev/ — currently in{" "}
+                <p className="text-sm text-muted-foreground md:text-base flex items-center gap-2">
+                  <span>IPA:</span>
+                  <span>/ˈsʌn.dʒiːv/</span>
+                  <button
+                    onClick={() => {
+                      const utterance = new SpeechSynthesisUtterance("Sun-jeeeevvv");
+                      utterance.rate = 0.7;
+                      speechSynthesis.speak(utterance);
+                    }}
+                    className="inline-flex items-center justify-center w-6 h-6 rounded-full bg-muted hover:bg-muted/80 transition-colors"
+                    title="Listen to pronunciation"
+                  >
+                    <svg 
+                      className="w-4 h-4" 
+                      fill="currentColor" 
+                      viewBox="0 0 20 20"
+                    >
+                      <path fillRule="evenodd" d="M9.383 3.076A1 1 0 0110 4v12a1 1 0 01-1.617.824L4.5 13H2a1 1 0 01-1-1V8a1 1 0 011-1h2.5l3.883-3.824zM15 8a2 2 0 012 2v0a2 2 0 01-2 2" clipRule="evenodd"/>
+                    </svg>
+                  </button>
+                  — currently in{" "}
                   <a 
                     href="https://en.wikipedia.org/wiki/Amherst,_Massachusetts" 
                     target="_blank" 

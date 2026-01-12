@@ -123,7 +123,7 @@ export const DATA = {
     },
     {
       title: "Asset Recommendation System",
-      href: "https://github.com/sanjiv27/asset-recommendation",
+      href: "https://github.com/sanjiv27/asset-recommendation-system",
       dates: "2024",
       active: true,
       description:
@@ -141,7 +141,7 @@ export const DATA = {
       links: [
         {
           type: "Source",
-          href: "https://github.com/sanjiv27/asset-recommendation",
+          href: "https://github.com/sanjiv27/asset-recommendation-system",
           icon: <Icons.github className="size-3" />,
         },
       ],
@@ -150,7 +150,7 @@ export const DATA = {
     },
     {
       title: "OverTool – Slowdown Attacks on MCP-based LLM agents",
-      href: "https://github.com/sanjiv27/overtool",
+      href: "https://github.com/ChetanMadadi/MCP-Attacks-Overtool/",
       dates: "2024",
       active: true,
       description:
@@ -166,7 +166,7 @@ export const DATA = {
       links: [
         {
           type: "Source",
-          href: "https://github.com/sanjiv27/overtool",
+          href: "https://github.com/ChetanMadadi/MCP-Attacks-Overtool/",
           icon: <Icons.github className="size-3" />,
         },
       ],
