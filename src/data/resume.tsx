@@ -8,14 +8,14 @@ export const DATA = {
   location: "Amherst",
   locationLink: "https://www.google.com/maps/place/amherst",
   description:
-    "CS grad student. Experienced Full Stack Developer. Research interests in AI Alignment & Security",
+    "CS grad student. Experienced in building scalable, low-latency systems. Research interests in AI security and alignment.",
   summary:
-    "Write your personal story here. This appears in the expandable 'About' section on your homepage. Talk about your background, interests, journey, and what drives you. Make it personal and engaging - this is where visitors get to know the real you.\n\nYou can include multiple paragraphs, your hobbies, what you're currently working on, or anything else that represents who you are.",
+    "Born and raised in South India where every conversation is a linguistic adventure - you might start in Tamil, switch to English mid-sentence, and throw in some Hindi for good measure. Growing up in this chaos made me obsessed with how humans communicate and understand each other.\n\nThat curiosity somehow led me down the rabbit hole of wondering what happens when machines get really good at understanding us. Now I'm at UMass Amherst trying to figure out how to keep AGI aligned with human values because someone's gotta make sure our future robot overlords are actually friendly.\n\nWhen I'm not pondering existential AI risks, you'll find me hiking New England trails, getting competitive over literally any sport, or destroying people at chess (sorry not sorry). Always down for a good conversation about life, philosophy, or why spicy food is objectively superior.",
   avatarUrl: "/me.jpeg",
 
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
-    { href: "/blog", icon: NotebookIcon, label: "Blog" },
+    { href: "/notes", icon: NotebookIcon, label: "Notes" },
   ],
   contact: {
     email: "smohanraj@umass.edu",
@@ -55,9 +55,9 @@ export const DATA = {
       end: "August 2025", // or "Month Year"
       bullets: [
         "General Role: Built 4 command centers for critical ETF applications with neat UIs for querying and manipulating operational data; served as SME for 2 major ETF applications; developed AI tools to improve team efficiency; led cross-team efforts to resolve over 50 production incidents; won multiple AI hackathons.",
-        "TransformX: Built a data transformation framework with a React UI and Kotlin DataFrames, enabling configurable workflows for multiple file formats via a custom DSL built with ANTLR; automated ingestion pipelines integrating databases and Amazon S3 and persisted transformation metadata in MongoDB.",
-        "Security Master: Pioneered a security exception clearance platform simplifying ETF basket creation for 50+ ETF issuers; reduced application load times by 10× through optimized SQL procedures, Angular rendering behavior, and in-memory caching.",
-        "Distributed Java Cache Library: Developed a generic distributed Java cache library using Hazelcast with a unified CRUD interface, reducing boilerplate code by 60% and adopted by six teams as a Maven dependency."
+        "Built a data transformation framework with a React UI and Kotlin DataFrames, enabling configurable workflows for multiple file formats via a custom DSL built with ANTLR; automated ingestion pipelines integrating databases and Amazon S3 and persisted transformation metadata in MongoDB.",
+        "Pioneered a security exception clearance platform simplifying ETF basket creation for 50+ ETF issuers; reduced application load times by 10× through optimized SQL procedures, Angular rendering behavior, and in-memory caching.",
+        "Developed a generic distributed Java cache library using Hazelcast with a unified CRUD interface, reducing boilerplate code by 60% and adopted by six teams as a Maven dependency."
       ],
     },
     {

@@ -51,28 +51,21 @@ export default function Page() {
               />
               <BlurFade delay={BLUR_FADE_DELAY * 4}>
                 <p className="text-sm text-muted-foreground md:text-base">
-                  Add your personal introduction here - maybe your location, 
-                  <br />
-                  pronunciation of your name, or something unique about you.
+                  Pronounced /sun-jeev/ — currently in{" "}
+                  <a 
+                    href="https://en.wikipedia.org/wiki/Amherst,_Massachusetts" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="font-medium text-primary hover:text-primary/80 underline decoration-primary/40 underline-offset-2 hover:decoration-primary/60 transition-all duration-200"
+                  >
+                    Amherst, MA
+                  </a>
+                  .
                 </p>
               </BlurFade>
               <BlurFade delay={BLUR_FADE_DELAY * 5}>
                 <p className="max-w-[600px] text-muted-foreground text-base md:text-xl">
                   {DATA.description}
-                </p>
-              </BlurFade>
-              <BlurFade delay={BLUR_FADE_DELAY * 6}>
-                <p className="text-muted-foreground text-base md:text-xl">
-                  Currently building at{" "}
-                  <a 
-                    href="https://www.umass.edu/" 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                    className="font-medium text-primary hover:text-primary/80 underline decoration-primary/40 underline-offset-2 hover:decoration-primary/60 transition-all duration-200"
-                  >
-                    UMass Amherst
-                  </a>
-                  .
                 </p>
               </BlurFade>
             </div>
