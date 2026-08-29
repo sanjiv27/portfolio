@@ -45,6 +45,18 @@ export const DATA = {
 
   technicalExperience: [
     {
+      company: "MathWorks",
+      href: "https://www.mathworks.com/",
+      badges: [],
+      title: "Software Engineering Intern",
+      logoUrl: "",
+      start: "May 2026",
+      end: "August 2026",
+      bullets: [
+        "Built an LLM-powered knowledge graph to query Simulink compilation phases and dependencies."
+      ],
+    },
+    {
       company: "BNY Mellon",
       href: "https://www.bny.com/",
       badges: [],
