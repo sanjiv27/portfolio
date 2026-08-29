@@ -51,7 +51,7 @@ export default function Page() {
               />
               <BlurFade delay={BLUR_FADE_DELAY * 4}>
                 <p className="text-sm text-muted-foreground md:text-base">
-                  Pronounced /sun-jeev/ — currently in{" "}
+                  Pronounced /sun-jeev/, currently in{" "}
                   <a 
                     href="https://en.wikipedia.org/wiki/Amherst,_Massachusetts" 
                     target="_blank" 

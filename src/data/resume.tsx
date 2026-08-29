@@ -49,7 +49,7 @@ export const DATA = {
       href: "https://www.mathworks.com/",
       badges: [],
       title: "Software Engineering Intern",
-      logoUrl: "",
+      logoUrl: "mathworks-logo.svg",
       start: "May 2026",
       end: "August 2026",
       bullets: [
@@ -108,7 +108,7 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "UniTrade – Campus Marketplace Platform",
+      title: "UniTrade - Campus Marketplace Platform",
       href: "https://github.com/sanjiv27/unitrade",
       dates: "2024 - Present",
       active: true,
@@ -162,7 +162,7 @@ export const DATA = {
       video: "",
     },
     {
-      title: "OverTool – Slowdown Attacks on MCP-based LLM agents",
+      title: "OverTool - Slowdown Attacks on MCP-based LLM agents",
       href: "https://github.com/ChetanMadadi/MCP-Attacks-Overtool/",
       dates: "2024",
       active: true,
