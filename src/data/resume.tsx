@@ -53,6 +53,7 @@ export const DATA = {
       start: "May 2026",
       end: "August 2026",
       bullets: [
+        "Extended Simulink's C++ compilation pipeline with compile-time transformations and UI support for Bidirectional Bus Ports, while reducing compile time by 90%.",
         "Built an LLM-powered knowledge graph to query Simulink compilation phases and dependencies."
       ],
     },
