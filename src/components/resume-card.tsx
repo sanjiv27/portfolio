@@ -64,11 +64,19 @@ export const TimelineItem = ({
       onClick={handleClick}
     >
       {/* Logo */}
-      <Avatar className="size-10 border bg-background flex-shrink-0">
+      <Avatar
+        className={cn(
+          "size-10 border bg-background flex-shrink-0",
+          altText === "MathWorks" && "bg-white"
+        )}
+      >
         <AvatarImage
           src={logoUrl}
           alt={altText}
-          className="object-contain"
+          className={cn(
+            "object-contain",
+            altText === "MathWorks" && "p-1"
+          )}
         />
         <AvatarFallback className="text-xs">{altText[0]}</AvatarFallback>
       </Avatar>
@@ -177,11 +185,19 @@ export const ResumeCard = ({
     >
       <Card className="flex p-0">
         <div className="flex-none p-content-md">
-          <Avatar className="border size-12 m-auto bg-muted-background dark:bg-foreground">
+          <Avatar
+            className={cn(
+              "border size-12 m-auto bg-muted-background dark:bg-foreground",
+              altText === "MathWorks" && "bg-white dark:bg-white"
+            )}
+          >
             <AvatarImage
               src={logoUrl}
               alt={altText}
-              className="object-contain"
+              className={cn(
+                "object-contain",
+                altText === "MathWorks" && "p-1"
+              )}
             />
             <AvatarFallback>{altText[0]}</AvatarFallback>
           </Avatar>
