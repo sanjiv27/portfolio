@@ -49,7 +49,7 @@ export const DATA = {
       href: "https://www.mathworks.com/",
       badges: [],
       title: "Software Engineering Intern",
-      logoUrl: "mathworks-logo.svg",
+      logoUrl: "mathworks.png",
       start: "May 2026",
       end: "August 2026",
       bullets: [
